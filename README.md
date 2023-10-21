@@ -1,4 +1,5 @@
-# terraform-aws-ec2WebServerModule
+# Terraform Module - Deploy HA Auto Scaling Group Enabled EC2 Architecture
+
 ### Intro to module
 
 In it's default configuration, this module creates an EC2 instance with HTTPD configured, along with an Auto Scale Group and a Load Balancer. Using the variables defined below, it is possible to modify the behaviour of the module to:
