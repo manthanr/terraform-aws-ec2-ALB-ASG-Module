@@ -138,5 +138,5 @@ variable "target_HTTPS" {
 #Amazon Certificate Name
 variable "ACN_ARN" {
   type = string
-  #default = "xxx" 
+  default = "xxx" 
 }
