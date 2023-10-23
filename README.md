@@ -67,7 +67,7 @@ In it's default configuration, this module creates an EC2 instance with HTTPD co
 - `lb_HTTPS` **(Optional)**: Is the load balancer listener HTTPS? This is a **boolean** with the default value of **false**
 - `target_HTTPS` **(Optional)**: Is the target group HTTPS? This is a **boolean** with the default value of **false**
 
-- `ACN_ARN` **(Optional):**  In the case that HTTPS is leveraged for listener connections, specify ***ACN ARN*** value 
+- `ACN_ARN` **(Semi-Optional):**  In the case that HTTPS is leveraged for listener connections, specify ***ACN ARN*** value 
 
 
 
