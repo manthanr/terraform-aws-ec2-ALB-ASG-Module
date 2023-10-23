@@ -126,7 +126,7 @@ variable "lb_internal" {
 #LB HTTPS?
 variable "lb_HTTPS" {
   type = bool 
-  default = true
+  default = false
 }
 
 #Target Group HTTPS?
