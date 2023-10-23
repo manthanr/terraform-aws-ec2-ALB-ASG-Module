@@ -35,7 +35,7 @@ resource "aws_launch_configuration" "ec2-launch-config" {
   image_id      =  var.ec2_ami == "amazon-linux-2" ? data.aws_ami.linux.id : var.ec2_ami  
   instance_type = var.ec2_type
   key_name = var.keypair == "none" ? null : var.keypair
-  user_data = var.user_data == "none" ? null : file(${path.module}/${var.user_data})
+  user_data = var.user_data == "none" ? null : file("${path.module}/${var.user_data}")
   security_groups = var.ec2_security_groups
   lifecycle {
     create_before_destroy = true
